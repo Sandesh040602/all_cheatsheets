@@ -1,0 +1,46 @@
+  0 [1] to `run` the gdb first run the file with -g flag
+  1 [2] then a output file is created like ./a.out
+  2 [3] type `gdb ./a.out` to run gdb on that file
+  3 [4] to add a breakpoint type `break [filename]:[linenumber]`
+  4 [5] if lets say we are at the breakpoint  and we want to go to the next line we will do `next` command
+  5 [6] when we are lost and want to see where we are do `list` command
+  6 [7] till now what we have no: list, next, break, run
+  7
+  8 [8] `print` command is used when we want to print the variable
+  9 like print j
+ 10
+ 11 [9] everything has a short hand
+ 12 print: p
+ 13 break: b
+ 14 run: r
+ 15
+ 16 [10] print command is pretty handy we can also dereffernce the pointer using this
+ 17
+ 18 [11] `quit` command is used to quit the gdb
+ 19
+ 20 [12] `bt full` is used to back trace full
+ 21 [13] we can use command `up` and `down` to go up and down in the call stack
+ 22 [14] `display` command is used when we want to check the value of a particular variable everytime
+ 23 [15] `undisplay` is used when we want to do `undisplay id`
+ 24
+ 25 [16] `step` command is used when we want to get inside the function
+ 26 [17] `continue` is sed when where we currently are and stop at next breakpoint
+ 27
+ 28 [18] lets say we want to tell gdb what ever stack we are in tell me when  you are finished computing the current stack command for this is `finish`
+ 29
+ 30 [19] `watch` commands is used when when we want to tell gdb to watch a variable and whenever it changes the value tell me and pause there
+ 31
+ 32 e.g. watch v // this will watch the variable v
+ 33
+ 34 [20] we can also do `list 25` to have a look at the line 25
+ 35
+ 36 [21] `info break` to take info of all the break
+ 37
+ 38 [22] `delete id` will delete the break/watch point with the id
+ 39
+ 40 [23] remember everything has a shortcut but you should write a discriptive one as you have to expl    ain to others with time you will be fast.
+ 41
+ 42 [24] if you have surpassed the point that we have looked for, so for that we have to record than d    o `target record-full`
+ 43
+ 44 [25] if we want to set some var to something we can do
+ 45     `set var [var_name]=[value_to_set_with]
