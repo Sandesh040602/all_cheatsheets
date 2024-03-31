@@ -1,0 +1,67 @@
+  0 Hello everyone my name is sandesh kumar chandrakar
+  1 this is the beginning of the cheatsheet of the vim
+  2
+  3 vim is important TO know as it is the editor is which we will be coding
+  4
+  5 C-a--> ctrl a
+  6 M-a--> Mode a
+  7
+  8 :q is for closing the file
+  9 :w is TO save what ever you have written
+ 10
+ 11 :wq is TO save and close the current file
+ 12 :x save and quit same as :wq
+ 13
+ 14 u is for undo
+ 15 CTRL R is for redo
+ 16
+ 17 :split is when we have TO do horizontally split
+ 18 :vsplit is when we want TO do vertical split
+ 19
+ 20 when it comes TO handling the splitted windows
+ 21
+ 22 ctrl + w + w will hop you TO the next window
+ 23 CTRL + w + leftarrow will take us TO the left window
+ 24 ctrl + w + rightarrow will take us TO  the right window
+ 25 CTRL + w + uparrow/ downarrow are same as above
+ 26
+ 27 TO increase the height and width of the partitions
+ 28
+ 29 ctrl + w + > will increase the width
+ 30 CTRL + w + < will decrease the width
+ 31 ctrl + w + `+` will increase the height
+ 32 CTRL +  w + `-` will decrease the height
+ 33
+ 34 my name is sandesh
+ 35
+ 36 Now we will understand about search and jump
+ 37
+ 38 `*` we will jump TO next occurance of the string where our cursor is
+ 39 f<c> TO jump of next occurance of char<c>
+ 40 F<c> same as above but in reverse direction
+ 41
+ 42 '. TO jump where the file is last edited
+ 43 g; jump TO last edited position
+ 44 gd is used TO jump to the declearation
+ 45 # to check the thing just for fun
+ 46
+ 47 # always rememeber to take diff as some can delete your diffs
+ 48 # thats why creating the diff is very important
+ 49
+ 50 [m is used to jump at the start at the starting of the function
+ 51 # as a genious i am i also discovered that ]m is used to reach the end of the function we are currently present
+ 52 # we can also do one thing write [m to reach the start of the function, the use % to reach the other end of the bracket
+ 53
+ 54 sandesh
+ 55
+ 56 :vimgrep /<regex>/g %        Search for <regex> with multiple occasions per line (g)
+ 57                              in current file (%)
+ 58
+ 59
+ 60 :vimgrep /<a>/g <filelist> search in the given filelist
+ 61 :vimgrep /<a>/g *.cc search is all files in current dir with file structure *.cc
+ 62 :vimgrep /<a>/g **/*.cc search is all files of every sub-directory with matching structure of *.cc
+ 63 :cnext to go to next occurance of matching
+ 64 :cprev to go to previous occurance of matching
+ 65
+ 66 ---NOW IN SEARCH AND REPLACE---
