@@ -1,0 +1,28 @@
+  0 [1] to build the database go to the folder in which you want to
+  1     build the database
+  2 [2] then enter cscope -R this will create a database and open a gui
+  3 [3] we can use different functionalities of cscope all the opetion will come in front o    f us
+  4 [4] press spaceto navigate upand down in searched results
+  5 [5] press tab to switch between the cscope fucntionalitites and the searched results
+  6 [6] press CTRL + D to go out of the cscope
+  7
+  8 ---------------- NOW IS THE IMPORTANT THING TO GO FOR SHORTCUTS
+  9
+ 10 [1]  + \ + s will open a search in front of us
+ 11 [2] ctrl + ] also does the same
+ 12 [3] ctrl + space + s will open the function but after selecting the preffered options i    t will open in a new hhorizontally splitted terminal
+ 13 [4] ctrl + space + ctrl + space + s will open the same options but after hitting enter     will open a new vertically splitted screen
+ 14 [5] :cscope f __options__ string
+ 15
+ 16 some command options
+ 17 c --> find the functions calling this function
+ 18 d --> find the functions called by this function
+ 19 f --> find this file
+ 20 i --> find the files #including this file
+ 21 s --> search this c symbol
+ 22 t --> to search this string
+ 23
+ 24 ---------------- OPEN THE FILE SYSTEM
+ 25
+ 26 :Sex is used to (apart from the obvious thing ) open the file system and split the screen in two halfs gorizontally
+ 27 :vsp | :Explore is used to vertically split and open the file directory in that vertica    lly splitted one can be done :vsp | :Exp
